@@ -13,6 +13,21 @@
             wifi_call_preferred="1"
             wifi_call_when_roaming="-1"
         />
+        <vowifi mnoname="ZEB_LT"
+            wifi_call_enable="1"
+            wifi_call_preferred="2"
+            wifi_call_when_roaming="-1"
+        />
+        <vowifi mnoname="Tele2_LT"
+            wifi_call_enable="1"
+            wifi_call_preferred="2"
+            wifi_call_when_roaming="-1"
+        />
+        <vowifi mnoname="Bite_LT"
+            wifi_call_enable="1"
+            wifi_call_preferred="2"
+            wifi_call_when_roaming="-1"
+        />
         <!-- Greece : T-Mobile : COS,COT -->
         <vowifi mnoname="TMobile_GR"
             wifi_call_enable="1"

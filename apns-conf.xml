@@ -265,10 +265,7 @@
       user="vodafone"
       password="vodafone"
       authtype="1"
-      mmsc="http://mmsc.mms.vodafone.nl"
-      mmsproxy="192.168.251.150"
-      mmsport="8799"
-      type="default,supl,mms,xcap"
+      type="default,supl,xcap"
   />
 
   <apn carrier="IMS"
@@ -7236,6 +7233,22 @@
       type="mms"
   />
 
+  <apn carrier="IMS"
+      mcc="246"
+      mnc="02"
+      apn="IMS"
+      protocol="IPV4V6"
+      type="ims"
+  />
+
+  <apn carrier="XCAP"
+      mcc="246"
+      mnc="02"
+      apn="hos"
+      protocol="IPV4V6"
+      type="xcap"
+  />
+
   <apn carrier="Tele2 LT Internet"
       mcc="246"
       mnc="03"
@@ -7246,6 +7259,22 @@
       mmsproxy="193.12.40.29"
       mmsport="8080"
       type="default,supl,mms"
+  />
+
+  <apn carrier="IMS"
+      mcc="246"
+      mnc="03"
+      apn="IMS"
+      protocol="IPV4V6"
+      type="ims"
+  />
+
+  <apn carrier="XCAP"
+      mcc="246"
+      mnc="03"
+      apn="hos"
+      protocol="IPV4V6"
+      type="xcap"
   />
 
   <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
@@ -29146,6 +29175,7 @@
       mmsproxy="203.162.21.114"
       mmsport="3130"
       type="mms"
+      protocol="IPV4V6"
   />
 
   <apn carrier="VN MobiFone Email"
@@ -29155,6 +29185,7 @@
       user="mms"
       password="mms"
       type="default,supl"
+      protocol="IPV4V6"
   />
 
   <apn carrier="VN VINAPHONE MMS"
@@ -29167,6 +29198,7 @@
       mmsproxy="10.1.10.46"
       mmsport="8000"
       type="mms"
+      protocol="IPV4V6"
   />
 
   <apn carrier="VN VINAPHONE Email"
@@ -29176,6 +29208,7 @@
       user="mms"
       password="mms"
       type="default,supl"
+      protocol="IPV4V6"
   />
 
   <apn carrier="VIETTEL Email"
@@ -29183,6 +29216,7 @@
       mnc="04"
       apn="v-internet"
       type="default,supl"
+      protocol="IPV4V6"
   />
 
   <apn carrier="VIETTEL MMS"
@@ -29193,6 +29227,7 @@
       mmsproxy="192.168.233.10"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
   />
 
   <apn carrier="VN Vietnamobile Email"

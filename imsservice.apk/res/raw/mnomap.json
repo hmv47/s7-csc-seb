@@ -103,6 +103,8 @@
     {"mccmnc": "24413", "subset": "", "gid1": "", "gid2": "", "mnoname": "DNA_FI"},
     {"mccmnc": "24491", "subset": "", "gid1": "", "gid2": "", "mnoname": "Telia_FI"},
     {"mccmnc": "24601", "subset": "", "gid1": "", "gid2": "", "mnoname": "ZEB_LT"},
+    {"mccmnc": "24602", "subset": "", "gid1": "", "gid2": "", "mnoname": "Bite_LT"},
+    {"mccmnc": "24603", "subset": "", "gid1": "", "gid2": "", "mnoname": "Tele2_LT"},
     {"mccmnc": "246081", "subset": "", "gid1": "", "gid2": "", "mnoname": "VZW_US"},
     {"mccmnc": "24681", "subset": "", "gid1": "", "gid2": "", "mnoname": "VZW_US"},
     {"mccmnc": "24801", "subset": "", "gid1": "", "gid2": "", "mnoname": "Telia_EE"},
