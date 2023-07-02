@@ -1892,11 +1892,88 @@
       "support_ipsec": true,
       "use_pem_header": false,
       "use_precondition": true,
+      "wifi_precondition_enabled": true,
       "support_183_for_ir92v9_precondition": false,
       "conference_referuri_type": "siponly",
       "network": [
         {
-          "type": "lte",
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Lithuania Bite VoLTE",
+      "mnoname": "Bite_LT",
+      "operator": [
+        "24602"
+      ],
+      "sales_code": "SEB",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "pdn": "ims",
+      "priority": 1,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "early_media_rtp_timeout_timer": 2,
+      "reg_expires": 3600,
+      "mss_size": 1300,
+      "support_roaming": true,
+      "support_ipsec": true,
+      "use_pem_header": false,
+      "use_precondition": true,
+      "wifi_precondition_enabled": true,
+      "support_183_for_ir92v9_precondition": false,
+      "conference_referuri_type": "siponly",
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Lithuania Tele2 VoLTE",
+      "mnoname": "Tele2_LT",
+      "operator": [
+        "24603"
+      ],
+      "sales_code": "SEB",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "pdn": "ims",
+      "priority": 1,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "early_media_rtp_timeout_timer": 2,
+      "reg_expires": 3600,
+      "mss_size": 1300,
+      "support_roaming": true,
+      "support_ipsec": true,
+      "use_pem_header": false,
+      "use_precondition": true,
+      "wifi_precondition_enabled": true,
+      "support_183_for_ir92v9_precondition": false,
+      "conference_referuri_type": "siponly",
+      "network": [
+        {
+          "type": "lte,wifi",
           "services": [
             "mmtel",
             "mmtel-video",

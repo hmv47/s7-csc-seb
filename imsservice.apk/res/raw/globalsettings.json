@@ -1670,6 +1670,28 @@
       "remove_icon_nosvc": 1
     },
     {
+      "mnoname": "Bite_LT",
+      "auth_proxy_ip": "xcap.ims.mncXXX.mccXXX.pub.3gppnetwork.org",
+      "auth_proxy_port": 80,
+      "bsf_ip": "bsf.mncXXX.mccXXX.pub.3gppnetwork.org",
+      "bsf_port": 80,
+      "xcap_root_uri_pref": 2,
+      "show_volte_regi_icon": true,
+      "srvcc_version": "10",
+      "remove_icon_nosvc": 1
+    },
+    {
+      "mnoname": "Tele2_LT",
+      "auth_proxy_ip": "xcap.ims.mncXXX.mccXXX.pub.3gppnetwork.org",
+      "auth_proxy_port": 80,
+      "bsf_ip": "bsf.ims.mnc003.mcc246.pub.3gppnetwork.org",
+      "bsf_port": 8081,
+      "xcap_root_uri_pref": 2,
+      "show_volte_regi_icon": true,
+      "srvcc_version": "10",
+      "remove_icon_nosvc": 1
+    },
+    {
       "mnoname": "Tele2_NL",
       "auth_proxy_ip": "xcap.ims.mnc002.mcc204.pub.3gppnetwork.org",
       "auth_proxy_port": 80,
