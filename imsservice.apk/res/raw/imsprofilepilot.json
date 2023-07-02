@@ -1,0 +1,3159 @@
+{
+  "version": 110,
+  "profile": [
+    {
+      "name": "default",
+      "mnoname": "DEFAULT",
+      "operator": [],
+      "enabled": 2,
+      "pdn": "ims",
+      "transport": "udp-preferred",
+      "support_ipsec": false,
+      "regi_algo": "AKAv1-MD5",
+      "auth_algo": "both",
+      "enc_algo": "all",
+      "subscribe_for_reg": true,
+      "subscriber_timer": 600000,
+      "useragent": "[PRODUCT_MODEL]-[BUILD_VERSION] Samsung IMS 6.0",
+      "reg_expires": 600000,
+      "sip_uri_only": false,
+      "enable_gruu": true,
+      "sip_mobility": 0,
+      "session_refresh_method": 1,
+      "min_se": 90,
+      "session_refresher": "none",
+      "sip_compact_header": false,
+      "remote_uri_type": "sip",
+      "need_naptr_dns": false,
+      "support_roaming": false,
+      "secure_client_port": 5000,
+      "secure_server_port": 6000,
+      "reregi_on_ratchange": "on_service_change",
+      "mss_size": 1500,
+      "reg_enabled": false,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "emergency_support": false,
+      "supported_geolocation_phase": 0,
+      "need_autoconfig": false,
+      "use_msrp_bearer": false,
+      "wifi_precondition_enabled": false,
+      "use_precondition": false,
+      "precondtion_initial_sendrecv": true,
+      "use_provisional_response_100rel": false,
+      "use_183_on_progress_incoming": false,
+      "support_183_for_ir92v9_precondition": true,
+      "support_upgrade_precondition": false,
+      "is_rcs_telephony_feature_tag_required": false,
+      "is_full_codec_offer_required": false,
+      "timer_100trying": 0,
+      "use_pem_header": true,
+      "privacy_header_restricted": "header",
+      "session_expires": 1800,
+      "ringing_timer": 30,
+      "ringback_timer": 32,
+      "invite_timeout": 180,
+      "dbr_timer": 0,
+      "early_media_rtp_timeout_timer": 0,
+      "enable_mwi": false,
+      "mwi_subscribe_expiry": 7200,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mncXXX.mccXXX.3gppnetwork.org",
+      "conference_subscribe": "both_subscribe_unsubscribe",
+      "conference_dialog_type": "0",
+      "conference_referuri_type": "siptel",
+      "conference_referuri_asserted": "0",
+      "conference_use_anonymous_update": "0",
+      "support_merge_video_conference": false,
+      "support_upgrade_video_conference": false,
+      "pulling_server_uri": "",
+      "reg_retry_base_time": 30,
+      "reg_retry_max_time": 1800,
+      "smsc_set": "4444",
+      "audio_capabilities": "0",
+      "audio_codec_mode": "2",
+      "dtmf_mode": 0,
+      "video_capabilities": true,
+      "enable_g711": true,
+      "display_format": "vga-port",
+      "display_format_hevc": "vga-port",
+      "framerate": 15,
+      "rtp_timeout": 20,
+      "rtcp_timeout": 20,
+      "enable_rtcp_on_active_call": false,
+      "ignore_rtcp_timeout_on_hold_call": false,
+      "enable_av_sync": false,
+      "audio_port_start": 1234,
+      "audio_port_end": 0,
+      "video_port_start": 1574,
+      "video_port_end": 0,
+      "text_port": 49158,
+      "amrnb_mode": "",
+      "amrwb_mode": "",
+      "audio_video_tx": 1,
+      "emm": 1,
+      "external_gtty": 0,
+      "audio_avpf": 0,
+      "audio_srtp": 0,
+      "video_avpf": 0,
+      "video_srtp": 0,
+      "video_as": 700,
+      "video_rs": 4800,
+      "video_rr": 14400,
+      "audio_as": 38,
+      "audio_rs": 375,
+      "audio_rr": 1125,
+      "amrnbbe_payload": 118,
+      "amrnboa_payload": 96,
+      "amrwbbe_payload": 116,
+      "amrwboa_payload": 107,
+      "amropen_payload": 0,
+      "h264_720p_payload": 122,
+      "h264_720pl_payload": 123,
+      "h264_vga_payload": 116,
+      "h264_vgal_payload": 121,
+      "h264_qvga_payload": 118,
+      "h264_qvgal_payload": 103,
+      "h264_cif_payload": 124,
+      "h264_cifl_payload": 125,
+      "h263_qcif_payload": 34,
+      "dtmf_nb_payload": 110,
+      "dtmf_wb_payload": 111,
+      "amrnboa_max_red": 220,
+      "amrnbbe_max_red": 220,
+      "amrwboa_max_red": 220,
+      "amrwbbe_max_red": 220,
+      "evs_max_red": 220,
+      "video_codec": "H264,H263",
+      "audio_codec": "AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "packetization_mode": "1",
+      "dtmf_codec_mode": "0",
+      "mdmn_type": "NotSupport",
+      "enable_scr": true,
+      "tty_type": 1,
+      "ptime": 20,
+      "maxptime": 240,
+      "audio_rtcpxr": 0,
+      "video_rtcpxr": 0,
+      "enable_evs_codec": false,
+      "evs_discontinuous_transmission": "1",
+      "evs_dtx_recv": "1",
+      "evs_header_full": "0",
+      "evs_mode_switch": "0",
+      "evs_channel_send": "0",
+      "evs_channel_recv": "0",
+      "evs_channel_aware_receive": "-1",
+      "evs_codec_mode_request": "0",
+      "evs_bit_rate_send": "9.6-24.4",
+      "evs_bit_rate_receive": "9.6-24.4",
+      "evs_bandwidth_send": "nb-swb",
+      "evs_bandwidth_receive": "nb-swb",
+      "evs_payload": 112,
+      "evs_2nd_payload": 113,
+      "evs_default_bandwidth": "nb-swb",
+      "evs_default_bitrate": "24.4",
+      "support_3gpp_ussi": false,
+      "use_autoconfig": true,
+      "closed_group_chat": false,
+      "subscribe_max_entry": 0,
+      "publish_timer": 0,
+      "publish_expiry": 3600,
+      "extended_publish_timer": 86400,
+      "enable_gzip": false,
+      "expire_header": true,
+      "anonymous_fetch": false,
+      "bad_event_expiry": 0,
+      "cap_cache_exp": 0,
+      "cap_poll_interval": 0,
+      "src_throttle_publish": 60,
+      "avail_cache_exp": 0,
+      "publish_err_retry_timer": 21600,
+      "poll_list_sub_exp": 3,
+      "cap_discovery": true,
+      "self_port": 5060,
+      "support_incoming_history_info": false,
+      "support_ect": false,
+      "support_specific_salescode_only": false,
+      "scm_version": 0,
+      "rcs_profile": "",
+      "tcprst_uac_errorcode": -1,
+      "tcprst_uas_errorcode": -1,
+      "add_histinfo": false,
+      "support_lte_preferred":false,
+      "support_access_type": false,
+      "network": [
+        {
+          "type": "lte,hspa,umts,gsm,ehrpd,tdscdma,wifi",
+          "services": [],
+          "enabled": false,
+          "dereg_timeout": 4000
+        }
+      ]
+    },
+    {
+      "name": "SKT VoLTE",
+      "operator": [
+        "45005",
+        "45003"
+      ],
+      "sales_code": "SKT,SKC",
+      "pdn": "ims",
+      "priority": 1,
+      "authname": "sip:registrar.sktims.net",
+      "password": "12345678",
+      "pcscf": "220.103.220.10,2001:2d8:00e0:0220::10",
+      "pcscf_pref": 5,
+      "port": 5060,
+      "transport": "udp",
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:8000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000",
+      "privacy_header_restricted": "id",
+      "session_expires": 180,
+      "session_refresher": "uac",
+      "ringback_timer": 180,
+      "ringing_timer": 90,
+      "invite_timeout": 90,
+      "support_ipsec": false,
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "emergency_support": false,
+      "domain": "sktims.net",
+      "useragent": "TTA-VoLTE/[UICC_VERSION] [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone SKT",
+      "remote_uri_type": "tel",
+      "conference_uri": "sip:conference-factory@sktims.net",
+      "enable_gruu": false,
+      "framerate": 15,
+      "rtp_timeout": 10,
+      "audio_port_start": 7010,
+      "audio_port_end": 7022,
+      "video_port_start": 7010,
+      "video_port_end": 7022,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "audio_as": 41,
+      "audio_rs": 0,
+      "audio_rr": 800,
+      "video_as": 639,
+      "video_rs": 0,
+      "video_rr": 2500,
+      "amrwboa_payload": 100,
+      "amrwbbe_payload": -1,
+      "amrnboa_payload": 98,
+      "amrnbbe_payload": -1,
+      "dtmf_nb_payload": 101,
+      "dtmf_wb_payload": 103,
+      "h264_vga_payload": 102,
+      "h264_vgal_payload": -1,
+      "h264_qvga_payload": -1,
+      "h264_qvgal_payload": -1,
+      "h264_cif_payload": -1,
+      "h264_cifl_payload": -1,
+      "enable_evs_codec": true,
+      "evs_payload": 110,
+      "display_format": "vga-port",
+      "maxptime": 120,
+      "support_roaming": true,
+      "need_omadm_config": true,
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte,hspa,umts,gsm",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "SKT RCS",
+      "operator": [
+        "45005",
+        "45003"
+      ],
+      "sales_code": "SKT,SKC",
+      "pdn": "ims",
+      "priority": 1,
+      "authname": "sip:registrar.sktims.net",
+      "password": "12345678",
+      "pcscf": "220.103.220.10,2001:2d8:00e0:0220::10",
+      "pcscf_pref": 3,
+      "port": 5080,
+      "transport": "udp",
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:8000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000",
+      "session_expires": 1800,
+      "session_refresher": "uac",
+      "ringback_timer": 180,
+      "ringing_timer": 90,
+      "invite_timeout": 90,
+      "support_ipsec": false,
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "emergency_support": false,
+      "domain": "sktims.net",
+      "useragent": "TTA-RCS/1.0 [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/RCS_Android_Phone SKT",
+      "remote_uri_type": "tel",
+      "conference_uri": "sip:conference-factory@sktims.net",
+      "enable_gruu": false,
+      "framerate": 15,
+      "rtp_timeout": 10,
+      "audio_port_start": 7010,
+      "audio_port_end": 7022,
+      "video_port_start": 7010,
+      "video_port_end": 7022,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "audio_as": 41,
+      "audio_rs": 0,
+      "audio_rr": 800,
+      "video_as": 639,
+      "video_rs": 0,
+      "video_rr": 2500,
+      "amrwboa_payload": 100,
+      "amrwbbe_payload": -1,
+      "amrnboa_payload": 98,
+      "amrnbbe_payload": -1,
+      "dtmf_nb_payload": 101,
+      "dtmf_wb_payload": 103,
+      "h264_vga_payload": 102,
+      "h264_vgal_payload": -1,
+      "h264_qvga_payload": -1,
+      "h264_qvgal_payload": -1,
+      "h264_cif_payload": -1,
+      "h264_cifl_payload": -1,
+      "enable_evs_codec": true,
+      "evs_payload": 110,
+      "display_format": "vga-port",
+      "maxptime": 120,
+      "anonymous_fetch": true,
+      "support_roaming": true,
+      "need_autoconfig": true,
+      "self_port": 5062,
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte,hspa,umts,gsm",
+          "services": [
+            "im",
+            "ft_http",
+            "presence",
+            "euc",
+            "gls"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "SKT E911",
+      "operator": [
+        "45005",
+        "45003"
+      ],
+      "sales_code": "SKT,SKC",
+      "pdn": "emergency",
+      "priority": 1,
+      "authname": "sip:registrar.sktims.net",
+      "password": "12345678",
+      "pcscf": "220.103.220.10,2001:2d8:00e0:0220::10",
+      "pcscf_pref": 5,
+      "port": 5060,
+      "transport": "udp",
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:8000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000",
+      "privacy_header_restricted": "id",
+      "support_ipsec": false,
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "emergency_support": true,
+      "domain": "sktims.net",
+      "useragent": "TTA-VoLTE/[UICC_VERSION] [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone SKT",
+      "remote_uri_type": "tel",
+      "enable_gruu": false,
+      "rtp_timeout": 10,
+      "audio_port_start": 7010,
+      "audio_port_end": 7022,
+      "video_port_start": 7010,
+      "video_port_end": 7022,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "audio_as": 41,
+      "audio_rs": 0,
+      "audio_rr": 800,
+      "video_as": 639,
+      "video_rs": 0,
+      "video_rr": 2500,
+      "amrwboa_payload": 100,
+      "amrwbbe_payload": -1,
+      "amrnboa_payload": 98,
+      "amrnbbe_payload": -1,
+      "dtmf_nb_payload": 101,
+      "dtmf_wb_payload": 103,
+      "h264_vga_payload": 102,
+      "h264_vgal_payload": -1,
+      "h264_qvga_payload": -1,
+      "h264_qvgal_payload": -1,
+      "h264_cif_payload": -1,
+      "h264_cifl_payload": -1,
+      "enable_evs_codec": true,
+      "evs_payload": 110,
+      "display_format": "vga-port",
+      "support_roaming": true,
+      "need_omadm_config": false,
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte,gsm,umts,hspa",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "KT VoLTE",
+      "operator": [
+        "45008"
+      ],
+      "sales_code": "KTT,KTC",
+      "pdn": "ims",
+      "priority": 1,
+      "authname": "111@ims.mnc008.mcc450.3gppnetwork.org",
+      "password": "12345678",
+      "pcscf": "volte.imskt.com",
+      "pcscf_pref": 5,
+      "port": 5080,
+      "transport": "udp",
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "timer": "1:2000,2:16000,4:17000,A:1000,B:8000,C:72000,D:32000,E:2000,F:16000,G:2000,H:36000,I:17000,J:32000,K:17000",
+      "privacy_header_restricted": "id",
+      "session_expires": 360,
+      "session_refresher": "uac",
+      "ringback_timer": 180,
+      "ringing_timer": 180,
+      "invite_timeout": 180,
+      "support_ipsec": true,
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "emergency_support": false,
+      "domain": "ims.mnc008.mcc450.3gppnetwork.org",
+      "useragent": "TTA-VoLTE/[UICC_VERSION] [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone KT",
+      "remote_uri_type": "tel",
+      "enable_gruu": false,
+      "audio_port_start": 49152,
+      "audio_port_end": 65535,
+      "video_port_start": 49152,
+      "video_port_end": 65535,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "rtp_timeout": 10,
+      "audio_as": 41,
+      "audio_rs": 0,
+      "audio_rr": 800,
+      "video_as": 639,
+      "video_rs": 0,
+      "video_rr": 2500,
+      "amrwboa_payload": 98,
+      "amrwbbe_payload": 97,
+      "amrnboa_payload": 101,
+      "amrnbbe_payload": 100,
+      "dtmf_nb_payload": 102,
+      "dtmf_wb_payload": 99,
+      "h264_vga_payload": 103,
+      "h264_vgal_payload": -1,
+      "h264_qvga_payload": -1,
+      "h264_qvgal_payload": 104,
+      "h264_cif_payload": -1,
+      "h264_cifl_payload": -1,
+      "enable_evs_codec": true,
+      "evs_payload": 110,
+      "evs_default_bitrate": 13.2,
+      "display_format": "vga-port,qvga",
+      "framerate": 15,
+      "maxptime": 120,
+      "support_roaming": true,
+      "need_omadm_config": true,
+      "evs_default_bandwidth": "swb",
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte,gsm,umts,hspa",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "KT E911",
+      "operator": [
+        "45008"
+      ],
+      "sales_code": "KTT,KTC",
+      "pdn": "emergency",
+      "priority": 1,
+      "authname": "111@ims.mnc008.mcc450.3gppnetwork.org",
+      "password": "12345678",
+      "pcscf": "volte.imskt.com",
+      "pcscf_pref": 5,
+      "port": 5080,
+      "transport": "udp",
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "timer": "1:2000,2:16000,4:17000,A:1000,B:8000,C:72000,D:32000,E:2000,F:16000,G:2000,H:36000,I:17000,J:32000,K:17000",
+      "privacy_header_restricted": "id",
+      "session_expires": 360,
+      "session_refresher": "uac",
+      "support_ipsec": false,
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "emergency_support": true,
+      "domain": "ims.mnc008.mcc450.3gppnetwork.org",
+      "useragent": "TTA-VoLTE/[UICC_VERSION] [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone KT",
+      "remote_uri_type": "tel",
+      "enable_gruu": false,
+      "audio_port_start": 49152,
+      "audio_port_end": 65535,
+      "video_port_start": 49152,
+      "video_port_end": 65535,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "rtp_timeout": 10,
+      "audio_as": 41,
+      "audio_rs": 0,
+      "audio_rr": 800,
+      "video_as": 639,
+      "video_rs": 0,
+      "video_rr": 2500,
+      "amrwboa_payload": 98,
+      "amrwbbe_payload": 97,
+      "amrnboa_payload": 101,
+      "amrnbbe_payload": 100,
+      "dtmf_nb_payload": 102,
+      "dtmf_wb_payload": 99,
+      "h264_vga_payload": 103,
+      "h264_vgal_payload": -1,
+      "h264_qvga_payload": -1,
+      "h264_qvgal_payload": 104,
+      "h264_cif_payload": -1,
+      "h264_cifl_payload": -1,
+      "enable_evs_codec": true,
+      "evs_payload": 110,
+      "evs_default_bitrate": 13.2,
+      "evs_default_bandwidth": "swb",
+      "display_format": "vga-port,qvga",
+      "framerate": 15,
+      "support_roaming": true,
+      "need_omadm_config": false,
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte,gsm,umts,hspa",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "LGU VoLTE",
+      "operator": [
+        "45006"
+      ],
+      "sales_code": "LGT,LUC",
+      "pdn": "ims",
+      "priority": 1,
+      "authname": "sip:lte-lguplus.co.kr",
+      "password": "12345678",
+      "pcscf": "",
+      "pcscf_pref": 5,
+      "port": 5060,
+      "transport": "udp",
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "timer": "1:2000,2:8000,4:9000,A:2000,B:32000,C:120000,D:128000,E:2000,F:16000,G:2000,H:32000,I:9000,J:128000,K:9000",
+      "privacy_header_restricted": "id",
+      "session_expires": 3600,
+      "session_refresher": "uac",
+      "ringback_timer": 120,
+      "ringing_timer": 120,
+      "invite_timeout": 60,
+      "support_ipsec": true,
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "emergency_support": false,
+      "domain": "lte-lguplus.co.kr",
+      "useragent": "TTA-VoLTE/[UICC_VERSION] [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone LGU",
+      "remote_uri_type": "tel",
+      "conference_uri": "sip:conference-factory@lguplus.co.kr",
+      "conference_subscribe": "both_subscribe_unsubscribe",
+      "conference_dialog_type": "1",
+      "enable_gruu": false,
+      "framerate": 15,
+      "audio_port_start": 1230,
+      "audio_port_end": 1240,
+      "video_port_start": 1254,
+      "video_port_end": 1254,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "rtp_timeout": 10,
+      "audio_as": 41,
+      "audio_rs": 0,
+      "audio_rr": 2500,
+      "video_as": 653,
+      "video_rs": 0,
+      "video_rr": 2500,
+      "amrwboa_payload": 100,
+      "amrwbbe_payload": -1,
+      "amrnboa_payload": 96,
+      "amrnbbe_payload": -1,
+      "dtmf_nb_payload": 101,
+      "dtmf_wb_payload": 107,
+      "h264_vga_payload": 104,
+      "h264_vgal_payload": 103,
+      "h264_qvga_payload": -1,
+      "h264_qvgal_payload": 102,
+      "h264_cif_payload": -1,
+      "h264_cifl_payload": -1,
+      "enable_evs_codec": true,
+      "evs_payload": 110,
+      "display_format": "vga-port,vga,qvga",
+      "maxptime": 120,
+      "support_roaming": true,
+      "need_omadm_config": true,
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "LGU RCS",
+      "operator": [
+        "45006"
+      ],
+      "sales_code": "LGT,LUC",
+      "pdn": "ims",
+      "priority": 1,
+      "authname": "sip:lte-lguplus.co.kr",
+      "password": "12345678",
+      "pcscf": "",
+      "pcscf_pref": 3,
+      "port": 5060,
+      "transport": "udp",
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "timer": "1:2000,2:8000,4:9000,A:2000,B:32000,C:120000,D:128000,E:2000,F:16000,G:2000,H:32000,I:9000,J:128000,K:9000",
+      "session_expires": 1800,
+      "session_refresher": "uac",
+      "ringback_timer": 120,
+      "ringing_timer": 120,
+      "invite_timeout": 60,
+      "support_ipsec": false,
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "emergency_support": false,
+      "domain": "lte-lguplus.co.kr",
+      "useragent": "TTA-RCS/1.0 [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/RCS_Android_Phone LGU",
+      "remote_uri_type": "tel",
+      "conference_uri": "sip:conference-factory@lguplus.co.kr",
+      "conference_subscribe": "both_subscribe_unsubscribe",
+      "conference_dialog_type": "1",
+      "enable_gruu": false,
+      "framerate": 15,
+      "audio_port_start": 1230,
+      "audio_port_end": 1240,
+      "video_port_start": 1254,
+      "video_port_end": 1254,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "rtp_timeout": 10,
+      "audio_as": 41,
+      "audio_rs": 0,
+      "audio_rr": 2500,
+      "video_as": 653,
+      "video_rs": 0,
+      "video_rr": 2500,
+      "amrwboa_payload": 100,
+      "amrwbbe_payload": -1,
+      "amrnboa_payload": 96,
+      "amrnbbe_payload": -1,
+      "dtmf_nb_payload": 101,
+      "dtmf_wb_payload": 107,
+      "h264_vga_payload": 104,
+      "h264_vgal_payload": 103,
+      "h264_qvga_payload": -1,
+      "h264_qvgal_payload": 102,
+      "h264_cif_payload": -1,
+      "h264_cifl_payload": -1,
+      "enable_evs_codec": true,
+      "evs_payload": 110,
+      "display_format": "vga-port,vga,qvga",
+      "maxptime": 120,
+      "anonymous_fetch": true,
+      "support_roaming": true,
+      "need_autoconfig": true,
+      "self_port": 5062,
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "im",
+            "ft_http",
+            "presence",
+            "euc",
+            "gls"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "LGU E911",
+      "operator": [
+        "45006"
+      ],
+      "sales_code": "LGT,LUC",
+      "pdn": "emergency",
+      "priority": 1,
+      "authname": "sip:lte-lguplus.co.kr",
+      "password": "12345678",
+      "pcscf": "",
+      "pcscf_pref": 0,
+      "port": 5060,
+      "transport": "udp",
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "timer": "1:2000,2:8000,4:9000,A:2000,B:32000,C:120000,D:128000,E:2000,F:16000,G:2000,H:32000,I:9000,J:128000,K:9000",
+      "privacy_header_restricted": "id",
+      "support_ipsec": false,
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "emergency_support": true,
+      "domain": "lte-lguplus.co.kr",
+      "useragent": "TTA-VoLTE/[UICC_VERSION] [PRODUCT_MODEL]/[BUILD_VERSION] Device_Type/Android_Phone LGU",
+      "remote_uri_type": "tel",
+      "enable_gruu": false,
+      "audio_port_start": 1230,
+      "audio_port_end": 1240,
+      "video_port_start": 1254,
+      "video_port_end": 1254,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "rtp_timeout": 10,
+      "audio_as": 41,
+      "audio_rs": 0,
+      "audio_rr": 2500,
+      "video_as": 653,
+      "video_rs": 0,
+      "video_rr": 2500,
+      "amrwboa_payload": 100,
+      "amrwbbe_payload": -1,
+      "amrnboa_payload": 96,
+      "amrnbbe_payload": -1,
+      "dtmf_nb_payload": 101,
+      "dtmf_wb_payload": 107,
+      "h264_vga_payload": 104,
+      "h264_vgal_payload": 103,
+      "h264_qvga_payload": -1,
+      "h264_qvgal_payload": 102,
+      "h264_cif_payload": -1,
+      "h264_cifl_payload": -1,
+      "enable_evs_codec": true,
+      "evs_payload": 110,
+      "display_format": "vga-port,vga,qvga",
+      "support_roaming": true,
+      "need_omadm_config": false,
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CMCC Mobile VoLTE",
+      "mnoname": "CMCC_CN",
+      "operator": [
+        "46000",
+        "46002",
+        "46007",
+        "46008",
+        "46010",
+        "46020",
+        "46030"
+      ],
+      "sales_code": "CHM,CBK,CHC",
+      "authname": "",
+      "ipver": "ipv4v6",
+      "password": "",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "port": 5060,
+      "priority": 0,
+      "support_ipsec": true,
+      "remote_uri_type": "tel",
+      "ringing_timer": 80,
+      "ringback_timer": 80,
+      "timer_100trying": 6000,
+      "dbr_timer": 6000,
+      "wifi_precondition_enabled": true,
+      "use_precondition": true,
+      "use_183_on_progress_incoming": true,
+      "conference_dialog_type": "1",
+      "conference_referuri_type": "siponly",
+      "packetization_mode": "1,0",
+      "mss_size": 1300,
+      "video_as": 960,
+      "video_rs": 8000,
+      "video_rr": 6000,
+      "framerate": 30,
+      "audio_as": 49,
+      "enable_rtcp_on_active_call": true,
+      "support_incoming_history_info": true,
+      "add_histinfo": true,
+      "support_access_type": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CMCC Internet RCS",
+      "mnoname": "CMCC_CN",
+      "operator": [
+        "46000",
+        "46002",
+        "46007",
+        "46008",
+        "46010",
+        "46020",
+        "46030"
+      ],
+      "sales_code": "CHM,CBK,CHC",
+      "authname": "",
+      "ipver": "ipv4v6",
+      "password": "",
+      "pcscf_pref": 3,
+      "pdn": "internet",
+      "port": 5460,
+      "priority": 0,
+      "enable_gruu": false,
+      "transport": "tcp",
+      "mss_size": 1300,
+      "support_roaming": true,
+      "need_autoconfig": true,
+      "need_naptr_dns": true,
+      "network": [
+        {
+          "type": "lte,tdscdma,gsm",
+          "services": [
+            "slm",
+            "im",
+            "ft",
+            "options",
+            "euc",
+            "gls",
+            "profile"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CMCC Emergency",
+      "mnoname": "CMCC_CN",
+      "operator": [
+        "46000",
+        "46002",
+        "46007",
+        "46008",
+        "46010",
+        "46020",
+        "46030"
+      ],
+      "sales_code": "CHM,CBK,CHC",
+      "authname": "",
+      "emergency_support": true,
+      "ipver": "ipv4v6",
+      "password": "",
+      "pcscf_pref": 0,
+      "pdn": "emergency",
+      "port": 5060,
+      "priority": 0,
+      "support_ipsec": true,
+      "use_183_on_progress_incoming": true,
+      "remote_uri_type": "tel",
+      "enable_gruu": false,
+      "timer_100trying": 6000,
+      "enable_rtcp_on_active_call": true,
+      "mss_size": 1300,
+      "add_histinfo": true,
+      "support_access_type": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CMCC WIFI RCS",
+      "mnoname": "CMCC_CN",
+      "operator": [
+        "46000",
+        "46002",
+        "46007",
+        "46008",
+        "46010",
+        "46020",
+        "46030"
+      ],
+      "sales_code": "CHM,CBK,CHC",
+      "authname": "",
+      "ipver": "ipv4v6",
+      "password": "",
+      "pcscf_pref": 3,
+      "pdn": "wifi",
+      "port": 5260,
+      "priority": 0,
+      "enable_gruu": false,
+      "transport": "tls",
+      "mss_size": 1300,
+      "support_roaming": true,
+      "need_autoconfig": true,
+      "need_naptr_dns": true,
+      "network": [
+        {
+          "type": "wifi",
+          "services": [
+            "slm",
+            "im",
+            "ft",
+            "options",
+            "euc",
+            "gls",
+            "profile"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CTC Mobile",
+      "mnoname": "CTC_CN",
+      "operator": [
+        "46011",
+        "46012",
+        "46003"
+      ],
+      "sales_code": "CTC,CHC",
+      "ipver": "ipv4v6",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "port": 5060,
+      "priority": 0,
+      "wifi_precondition_enabled": true,
+      "use_precondition": true,
+      "use_183_on_progress_incoming": true,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc011.mcc460.3gppnetwork.org",
+      "conference_dialog_type": "1",
+      "conference_referuri_type": "siponly",
+      "support_ipsec": true,
+      "ringing_timer": 120,
+      "ringback_timer": 125,
+      "dbr_timer": 6000,
+      "min_se": 1800,
+      "video_as": 960,
+      "video_rs": 8000,
+      "video_rr": 6000,
+      "framerate": 30,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "packetization_mode": "1,0",
+      "enable_rtcp_on_active_call": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CTC Emergency",
+      "mnoname": "CTC_CN",
+      "operator": [
+        "46011",
+        "46012",
+        "46003"
+      ],
+      "sales_code": "CTC,CHC",
+      "ipver": "ipv4v6",
+      "pcscf_pref": 0,
+      "pdn": "emergency",
+      "port": 5060,
+      "priority": 0,
+      "emergency_support": true,
+      "wifi_precondition_enabled": true,
+      "use_precondition": true,
+      "use_183_on_progress_incoming": true,
+      "support_ipsec": true,
+      "ringing_timer": 120,
+      "ringback_timer": 125,
+      "dbr_timer": 6000,
+      "min_se": 1800,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "packetization_mode": "1,0",
+      "enable_rtcp_on_active_call": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CU Mobile VoLTE",
+      "mnoname": "CU_CN",
+      "operator": [
+        "46001",
+        "46006",
+        "46009"
+      ],
+      "sales_code": "CHU,CHC",
+      "authname": "",
+      "ipver": "ipv4v6",
+      "password": "",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "port": 5060,
+      "priority": 0,
+      "support_ipsec": true,
+      "remote_uri_type": "tel",
+      "ringing_timer": 80,
+      "ringback_timer": 80,
+      "use_precondition": true,
+      "use_183_on_progress_incoming": true,
+      "conference_referuri_type": "siponly",
+      "packetization_mode": "1,0",
+      "mss_size": 1300,
+      "video_as": 960,
+      "video_rs": 8000,
+      "video_rr": 6000,
+      "framerate": 30,
+      "audio_as": 49,
+      "enable_rtcp_on_active_call": true,
+      "support_incoming_history_info": true,
+      "add_histinfo": true,
+      "support_access_type": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CU Emergency",
+      "mnoname": "CU_CN",
+      "operator": [
+        "46001",
+        "46006",
+        "46009"
+      ],
+      "sales_code": "CHU,CHC",
+      "authname": "",
+      "emergency_support": true,
+      "ipver": "ipv4v6",
+      "password": "",
+      "pcscf_pref": 0,
+      "pdn": "emergency",
+      "port": 5060,
+      "priority": 0,
+      "support_ipsec": true,
+      "use_183_on_progress_incoming": true,
+      "enable_gruu": false,
+      "enable_rtcp_on_active_call": true,
+      "mss_size": 1300,
+      "add_histinfo": true,
+      "support_access_type": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Dcm VoLTE",
+      "mnoname": "Docomo_JP",
+      "operator": [
+        "44010"
+      ],
+      "sales_code": "DCM",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv6",
+      "auth_algo": "hmac-sha-1-96",
+      "reg_expires": 3600,
+      "enc_algo": "none",
+      "pdn": "ims",
+      "support_ipsec": true,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:72000,D:128000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "priority": 1,
+      "support_roaming": true,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "session_expires": 0,
+      "ringing_timer": 200,
+      "ringback_timer": -1,
+      "use_precondition": true,
+      "use_provisional_response_100rel": true,
+      "h264_qvga_payload": 102,
+      "display_format": "qvga-port",
+      "dtmf_mode": 5,
+      "video_port_start": 11254,
+      "video_as": 384,
+      "video_rs": 8000,
+      "video_rr": 6000,
+      "audio_codec": "EVS,AMR-WB,AMR,AMRBE-WB,AMRBE,DTMFWB,DTMF",
+      "video_codec": "H264",
+      "packetization_mode": "1,0",
+      "enable_evs_codec": true,
+      "evs_codec_mode_request": 0,
+      "evs_bit_rate_send": "13.2",
+      "evs_bit_rate_receive": "13.2",
+      "evs_bandwidth_send": "swb",
+      "evs_bandwidth_receive": "swb",
+      "support_3gpp_ussi": "true",
+      "support_incoming_history_info": true,
+      "scm_version": 12,
+      "privacy_header_restricted": "id",
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Dcm ECALL",
+      "mnoname": "Docomo_JP",
+      "operator": [
+        "44010"
+      ],
+      "sales_code": "DCM",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv6",
+      "auth_algo": "hmac-sha-1-96",
+      "reg_expires": 3600,
+      "enc_algo": "none",
+      "pdn": "emergency",
+      "support_ipsec": true,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:72000,D:128000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "priority": 1,
+      "support_roaming": true,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "session_expires": 0,
+      "ringing_timer": 200,
+      "ringback_timer": "-1",
+      "use_precondition": true,
+      "use_provisional_response_100rel": true,
+      "display_format": "qvga-port",
+      "dtmf_mode": 5,
+      "video_port_start": 11254,
+      "video_as": 384,
+      "video_rs": 8000,
+      "video_rr": 6000,
+      "audio_codec": "EVS,AMR-WB,AMR,AMRBE-WB,AMRBE,DTMFWB,DTMF",
+      "video_codec": "H264",
+      "enable_evs_codec": true,
+      "evs_codec_mode_request": 0,
+      "evs_bit_rate_send": "13.2",
+      "evs_bit_rate_receive": "13.2",
+      "evs_bandwidth_send": "swb",
+      "evs_bandwidth_receive": "swb",
+      "support_3gpp_ussi": "true",
+      "emergency_support": true,
+      "scm_version": 12,
+      "privacy_header_restricted": "id",
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Kddi VoLTE",
+      "mnoname": "KDDI_JP",
+      "operator": [
+        "44050",
+        "44051",
+        "44007",
+        "44008",
+        "44052",
+        "44053",
+        "44054",
+        "44055",
+        "44056",
+        "44070",
+        "44071",
+        "44072",
+        "44073",
+        "44074",
+        "44075",
+        "44076",
+        "44077",
+        "44078",
+        "44079",
+        "44088",
+        "44089",
+        "44170"
+      ],
+      "sales_code": "KDI",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv6",
+      "enc_algo": "none",
+      "pdn": "ims",
+      "useragent": "[PRODUCT_MODEL]-[BUILD_VERSION] IMS 6.0",
+      "timer": "1:3000,2:16000,4:17000,A:3000,B:10000,C:180000,D:128000,E:3000,F:30000,G:3000,H:30000,I:17000,J:30000,K:17000",
+      "transport": "udp",
+      "priority": 1,
+      "support_ipsec": true,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc051.mcc440.3gppnetwork.org",
+      "conference_subscribe": "only_subscribe",
+      "session_refresher": "uac",
+      "ringing_timer": 3600,
+      "ringback_timer": 3600,
+      "invite_timeout": 10,
+      "dbr_timer": 5000,
+      "audio_rs": 0,
+      "audio_rr": 0,
+      "amrwb_mode": "0,1,2",
+      "amrnbbe_payload": 110,
+      "amrwbbe_payload": 97,
+      "dtmf_mode": 5,
+      "dtmf_nb_payload": 118,
+      "use_precondition": true,
+      "use_provisional_response_100rel": true,
+      "support_roaming": true,
+      "support_incoming_history_info": true,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "evs_channel_aware_receive": "2",
+      "evs_bit_rate_send": "13.2",
+      "evs_bit_rate_receive": "13.2",
+      "evs_default_bitrate": "13.2",
+      "evs_bandwidth_send": "swb",
+      "evs_bandwidth_receive": "swb",
+      "evs_default_bandwidth": "swb",
+      "enable_evs_codec": true,
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Kddi ECALL",
+      "mnoname": "KDDI_JP",
+      "operator": [
+        "44050",
+        "44051",
+        "44007",
+        "44008",
+        "44052",
+        "44053",
+        "44054",
+        "44055",
+        "44056",
+        "44070",
+        "44071",
+        "44072",
+        "44073",
+        "44074",
+        "44075",
+        "44076",
+        "44077",
+        "44078",
+        "44079",
+        "44088",
+        "44089",
+        "44170"
+      ],
+      "sales_code": "KDI",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv6",
+      "enc_algo": "none",
+      "pdn": "emergency",
+      "useragent": "[PRODUCT_MODEL]-[BUILD_VERSION] IMS 6.0",
+      "timer": "1:3000,2:16000,4:17000,A:3000,B:10000,C:180000,D:128000,E:3000,F:30000,G:3000,H:30000,I:17000,J:30000,K:17000",
+      "mss_size": 10000,
+      "priority": 1,
+      "support_roaming": true,
+      "support_ipsec": true,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "emergency_support": true,
+      "dtmf_mode": 5,
+      "use_precondition": true,
+      "use_provisional_response_100rel": true,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "evs_channel_aware_receive": "2",
+      "evs_bit_rate_send": "13.2",
+      "evs_bit_rate_receive": "13.2",
+      "evs_default_bitrate": "13.2",
+      "evs_bandwidth_send": "swb",
+      "evs_bandwidth_receive": "swb",
+      "evs_default_bandwidth": "swb",
+      "enable_evs_codec": true,
+      "scm_version": 12,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Softbank VoLTE",
+      "mnoname": "Softbank_JP",
+      "operator": [
+        "44020",
+        "44120"
+      ],
+      "sales_code": "SBM",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "none",
+      "pdn": "ims",
+      "remote_uri_type": "tel",
+      "use_precondition": true,
+      "reg_enabled": true,
+      "ringing_timer": 180,
+      "ringback_timer": 180,
+      "dbr_timer": 5000,
+      "conference_subscribe": "only_subscribe",
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc020.mcc440.3gppnetwork.org",
+      "session_refresher": "uas",
+      "audio_codec_mode": "0",
+      "video_as": 399,
+      "video_rs": 600,
+      "video_rr": 2000,
+      "audio_rs": 512,
+      "audio_rr": 1537,
+      "priority": 1,
+      "support_ipsec": true,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Softbank ECALL",
+      "mnoname": "Softbank_JP",
+      "operator": [
+        "44020",
+        "44120"
+      ],
+      "sales_code": "SBM",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "none",
+      "pdn": "emergency",
+      "remote_uri_type": "tel",
+      "use_precondition": true,
+      "reg_enabled": true,
+      "ringing_timer": 180,
+      "ringback_timer": 180,
+      "dbr_timer": 5000,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc020.mcc440.3gppnetwork.org",
+      "audio_codec_mode": "0",
+      "video_as": 399,
+      "video_rs": 600,
+      "video_rr": 2000,
+      "audio_rs": 512,
+      "audio_rr": 1537,
+      "priority": 1,
+      "support_ipsec": true,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "emergency_support": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "PCCW Mobile VoLTE",
+      "operator": [
+        "45416",
+        "45419"
+      ],
+      "sales_code": "TGY",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "reg_expires": 3600,
+      "ringing_timer": 100,
+      "ringback_timer": 110,
+      "video_as": 639,
+      "framerate": 15,
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp",
+      "mss_size": 1300,
+      "conference_uri": "sip:conf-factory.ics.mnc019.mcc454.3gppnetwork.org",
+      "conference_subscribe": "not_use",
+      "conference_referuri_type": "siponly",
+      "conference_referuri_asserted": "0",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": false,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CSL Mobile VoLTE",
+      "operator": [
+        "45400",
+        "45402",
+        "45410",
+        "45418"
+      ],
+      "sales_code": "TGY",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "reg_expires": 4300,
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "video_as": 639,
+      "framerate": 15,
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp",
+      "mss_size": 1300,
+      "conference_uri": "sip:conference-factory@ims.mnc000.mcc454.3gppnetwork.org",
+      "conference_referuri_type": "siponly",
+      "conference_referuri_asserted": "0",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": false,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "3HK Mobile VoLTE",
+      "operator": [
+        "45403"
+      ],
+      "sales_code": "TGY",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "reg_expires": 4300,
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "video_as": 639,
+      "framerate": 15,
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "mss_size": 1300,
+      "conference_uri": "sip:19099@ims.mnc003.mcc454.3gppnetwork.org",
+      "conference_subscribe": "not_use",
+      "conference_referuri_type": "siponly",
+      "conference_referuri_asserted": "0",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": false,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "SMARTONE Mobile VoLTE",
+      "operator": [
+        "45406",
+        "45415",
+        "45417"
+      ],
+      "sales_code": "TGY",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "video_as": 639,
+      "framerate": 15,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "audio_codec_mode": "0",
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "mss_size": 1300,
+      "conference_uri": "sip:conference@ims.mnc006.mcc454.3gppnetwork.org",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CMHK Mobile VoLTE",
+      "operator": [
+        "45412",
+        "45413"
+      ],
+      "sales_code": "TGY",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "video_as": 639,
+      "framerate": 15,
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "session_refresher": "uac",
+      "transport": "udp-preferred",
+      "mss_size": 1300,
+      "conference_uri": "sip:conference@conference.ims.cmhk.net",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CTM Mobile VoLTE",
+      "operator": [
+        "45501",
+        "45504"
+      ],
+      "sales_code": "TGY",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "reg_expires": 4300,
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "video_as": 639,
+      "framerate": 15,
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "mss_size": 1300,
+      "conference_uri": "sip:conf-factory.ics.mnc001.mcc455.3gppnetwork.org",
+      "conference_subscribe": "not_use",
+      "conference_referuri_type": "siponly",
+      "conference_referuri_asserted": "0",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "SMT MAC Mobile VoLTE",
+      "operator": [
+        "45500"
+      ],
+      "sales_code": "TGY",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "video_as": 639,
+      "framerate": 15,
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "conference_uri": "sip:conference@ims.mnc000.mcc455.3gppnetwork.org",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "mss_size": 1300,
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "MAC3 Mobile VoLTE",
+      "operator": [
+        "45503",
+        "45505"
+      ],
+      "sales_code": "TGY",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "reg_expires": 4300,
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "video_as": 639,
+      "framerate": 15,
+      "conference_uri": "sip:conference@ims.mnc003.mcc455.3gppnetwork.org",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "mss_size": 1300,
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": false,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CTC MAC Mobile",
+      "operator": [
+        "45507",
+        "45502"
+      ],
+      "sales_code": "CTC",
+      "auth_algo": "both",
+      "enc_algo": "all",
+      "ipver": "ipv4v6",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "use_precondition": true,
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mncXXX.mccXXX.3gppnetwork.org",
+      "conference_dialog_type": "1",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "video_as": 960,
+      "video_rs": 8000,
+      "video_rr": 6000,
+      "framerate": 30,
+      "emm": 0,
+      "packetization_mode": "1,0",
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CTC MAC Emergency",
+      "operator": [
+        "45507",
+        "45502"
+      ],
+      "sales_code": "CTC",
+      "auth_algo": "both",
+      "enc_algo": "all",
+      "ipver": "ipv4v6",
+      "pcscf_pref": 0,
+      "pdn": "emergency",
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "use_precondition": true,
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mncXXX.mccXXX.3gppnetwork.org",
+      "conference_dialog_type": "1",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "video_as": 960,
+      "video_rs": 8000,
+      "video_rr": 6000,
+      "framerate": 30,
+      "emm": 0,
+      "packetization_mode": "1,0",
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "emergency_support": true,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "support_ipsec": true,
+      "enable_rtcp_on_active_call": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "FET Mobile VoLTE",
+      "operator": [
+        "46601"
+      ],
+      "sales_code": "BRI",
+      "auth_algo": "both",
+      "enc_algo": "all",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "use_precondition": true,
+      "session_expires": 1800,
+      "ringing_timer": 180,
+      "ringback_timer": 180,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc001.mcc466.3gppnetwork.org",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "video_as": 768,
+      "framerate": 15,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "APT Mobile VoLTE",
+      "operator": [
+        "46605"
+      ],
+      "sales_code": "BRI",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "session_expires": 1800,
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "conference_uri": "sip:APT_CONF@volte.aptg.com.tw",
+      "conference_subscribe": "not_use",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "amrwbbe_payload": 104,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "video_as": 768,
+      "framerate": 15,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": false,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "APT E911",
+      "operator": [
+        "46605"
+      ],
+      "sales_code": "BRI",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "emergency",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "session_expires": 1800,
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "conference_uri": "sip:APT_CONF@volte.aptg.com.tw",
+      "conference_subscribe": "not_use",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "amrwbbe_payload": 104,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "video_as": 768,
+      "framerate": 15,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "emergency_support": true,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": false,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CHT Mobile VoLTE",
+      "operator": [
+        "46692"
+      ],
+      "sales_code": "BRI",
+      "auth_algo": "both",
+      "enc_algo": "all",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "use_precondition": true,
+      "session_expires": 1800,
+      "ringing_timer": 180,
+      "ringback_timer": 120,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc092.mcc466.3gppnetwork.org",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "video_as": 768,
+      "framerate": 15,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "TWM Mobile VoLTE",
+      "operator": [
+        "46697"
+      ],
+      "sales_code": "BRI",
+      "auth_algo": "both",
+      "enc_algo": "none",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "session_expires": 1800,
+      "ringing_timer": 120,
+      "ringback_timer": 120,
+      "conference_uri": "sip:conf-factory@ims.taiwanmobile.com",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "video_as": 768,
+      "framerate": 15,
+      "enable_gruu": false,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "TSTAR Mobile VoLTE",
+      "operator": [
+        "46689"
+      ],
+      "sales_code": "BRI",
+      "auth_algo": "both",
+      "enc_algo": "all",
+      "ipver": "ipv4",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "reg_enabled": true,
+      "port": 5060,
+      "priority": 0,
+      "regi_algo": "AKAv1-MD5",
+      "remote_uri_type": "tel",
+      "session_expires": 1800,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "reg_expires": 7200,
+      "enable_gruu": false,
+      "conference_uri": "sip:TSTAR_CONF@ims.mnc089.mcc466.3gppnetwork.org",
+      "useragent": "Samsung IMS 6.0 [BUILD_VERSION]",
+      "video_as": 768,
+      "video_capabilities": false,
+      "cap_poll_interval": 604800,
+      "subscribe_max_entry": 500,
+      "enable_gzip": true,
+      "cap_cache_exp": 86400,
+      "avail_cache_exp": 259200,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    
+    {
+      "name": "VODA Default RCS",
+      "operator": [
+        "26202",
+        "26209",
+        "22210",
+        "23415",
+        "21401",
+        "20404",
+        "65501",
+        "26801",
+        "27201",
+        "21670",
+        "20205"
+      ],
+      "sales_code": "VD2,VDR,OMN,ITV,VOD,ATL,VDF,XFV,TCL,VDI,VDH,VGR,CPW",
+      "port": 5060,
+      "pcscf_pref": 3,
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "subscribe_for_reg": false,
+      "pdn": "default",
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "mss_size": 1300,
+      "priority": 1,
+      "need_autoconfig": true,
+      "need_naptr_dns": true,
+      "support_roaming": true,
+      "network": [
+        {
+          "type": "lte,umts,hspa,wifi",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "is",
+            "vs",
+            "options",
+            "euc"
+          ],
+          "enabled": true
+        },
+        {
+          "type": "gsm",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "VODAFONE GREECE IMS VoLTE",
+      "operator": [
+        "20205"
+      ],
+      "sales_code": "VGR",
+      "pdn": "ims",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4",
+      "regi_algo": "AKAv1-MD5",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "timer": "1:500,2:4000,4:5000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp-preferred",
+      "mss_size": 1300,
+      "priority": 1,
+      "support_ipsec": true,
+      "enable_gruu": true,
+      "wifi_precondition_enabled": true,
+      "use_precondition": true,
+      "enable_rtcp_on_active_call": true,
+      "ringing_timer": 180,
+      "ringback_timer": 180,
+      "reg_expires": 3600,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc005.mcc202.3gppnetwork.org",
+      "conference_subscribe": "both_subscribe_unsubscribe",
+      "conference_dialog_type": "1",
+      "audio_codec_mode": "0",
+      "audio_as": 41,
+      "audio_rs": 512,
+      "audio_rr": 1537,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Samsung Testbed",
+      "mnoname": "SamsungTestbed_KR",
+      "operator": [
+        "45001"
+      ],
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv6",
+      "pdn": "ims",
+      "mss_size": 1200,
+      "priority": 0,
+      "support_ipsec": true,
+      "timer": "1:500,2:16000,4:17000,A:2000,B:44000,C:72000,D:32000,E:2000,F:44000,G:2000,H:36000,I:17000,J:32000,K:17000",
+      "conference_uri": "sip:conf-factory.testlab.samsung.com",
+      "conference_subscribe": "not_use",
+      "need_omadm_config": false,
+      "support_ect": true,
+      "enable_rtcp_on_active_call": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "KPN VoLTE",
+      "mnoname": "KPN_NL",
+      "operator": [
+        "20408",
+        "20469"
+      ],
+      "sales_code": "PHN",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "pdn": "ims",
+      "enable_gruu": false,
+      "reg_enabled": true,
+      "use_precondition": true,
+      "support_183_for_ir92v9_precondition": false,
+      "ignore_rtcp_timeout_on_hold_call": true,
+      "mtu_size": "1500",
+      "priority": 1,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "TELIA DENMARK VOLTE",
+      "mnoname": "Telia_DK",
+      "operator": [
+        "23820",
+        "23830"
+      ],
+      "sales_code": "NEE",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-sha-1-96",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "priority": 0,
+      "mtu_size": 1300,
+      "amrwb_mode": "8",
+      "reregi_on_ratchange": "off",
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "support_ipsec": true,
+      "enable_evs_codec": true,
+      "enable_gruu": false,
+      "supported_geolocation_phase": 1,
+      "use_precondition": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "TELIA DENMARK E911",
+      "mnoname": "Telia_DK",
+      "operator": [
+        "23820",
+        "23830"
+      ],
+      "sales_code": "NEE",
+      "pdn": "emergency",
+      "emergency_support": true,
+      "port": 5060,
+      "reregi_on_ratchange": "off",
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-sha-1-96",
+      "audio_codec": "AMR-WB",
+      "amrwb_mode": "8",
+      "supported_geolocation_phase": 1,
+      "priority": 0,
+      "mtu_size": 1300,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "support_ipsec": true,
+      "enable_evs_codec": true,
+      "enable_gruu": false,
+      "use_precondition": true,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Proximus VoLTE",
+      "mnoname": "Proximus_BE",
+      "operator": [
+        "20601"
+      ],
+      "sales_code": "PRO,LUX",
+      "support_roaming": true,
+      "pdn": "ims",
+      "port": 5060,
+      "pcscf": "10.91.244.12",
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "password": "volte",
+      "enc_algo": "none",
+      "enable_gruu": false,
+      "reg_enabled": true,
+      "session_expires": 1200,
+      "ringing_timer": 180,
+      "ringback_timer": 180,
+      "use_precondition": true,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc001.mcc206.3gppnetwork.org",
+      "conference_dialog_type": "1",
+      "timer": "1:500,2:4000,4:5000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "tcp",
+      "priority": 1,
+      "conference_use_anonymous_update": "1",
+      "video_as": 916,
+      "framerate": 30,
+      "video_codec": "H264,H265",
+      "tcprst_uac_errorcode": 503,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Proximus Emergency",
+      "mnoname": "Proximus_BE",
+      "operator": [
+        "20601"
+      ],
+      "sales_code": "PRO,LUX",
+      "support_roaming": true,
+      "pdn": "emergency",
+      "port": 5060,
+      "pcscf": "10.91.244.12",
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "password": "volte",
+      "enc_algo": "none",
+      "emergency_support": true,
+      "reg_enabled": true,
+      "session_expires": 1200,
+      "ringing_timer": 180,
+      "ringback_timer": 180,
+      "use_precondition": true,
+      "timer": "1:500,2:4000,4:5000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "priority": 1,
+      "support_ipsec": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CELCOM VoLTE",
+      "operator": [
+        "50219"
+      ],
+      "sales_code": "XME",
+      "pdn": "ims",
+      "priority": 1,
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "regi_algo": "AKAv1-MD5",
+      "auth_algo": "hmac-sha-1-96",
+      "support_ipsec": true,
+      "enc_algo": "none",
+      "enable_gruu": false,
+      "mss_size": 1300,
+      "use_precondition": true,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "session_expires": 900,
+      "session_refresher": "uac",
+      "reg_expires": 3600,
+      "framerate": 15,
+      "amrnb_mode": "8",
+      "amrwb_mode": "8",
+      "support_3gpp_ussi": true,
+      "conference_uri": "sip: conf-factory.ics.mnc019.mcc502.3gppnetwork.org",
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CELCOM EMERGENCY",
+      "operator": [
+        "50219"
+      ],
+      "sales_code": "XME",
+      "pdn": "ims",
+      "priority": 1,
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4",
+      "regi_algo": "AKAv1-MD5",
+      "auth_algo": "hmac-sha-1-96",
+      "support_ipsec": true,
+      "enc_algo": "none",
+      "emergency_support": true,
+      "enable_gruu": false,
+      "mss_size": 1300,
+      "use_precondition": true,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "session_expires": 900,
+      "session_refresher": "uac",
+      "reg_expires": 3600,
+      "framerate": 15,
+      "amrnb_mode": "8",
+      "amrwb_mode": "8",
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Smart VoLTE",
+      "operator": [
+        "45606"
+      ],
+      "sales_code": "CAM",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4",
+      "regi_algo": "AKAv1-MD5",
+      "auth_algo": "both",
+      "enc_algo": "none",
+      "pdn": "ims",
+      "reg_enabled": true,
+      "timer": "1:2000,2:16000,4:17000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "priority": 1,
+      "support_ipsec": true,
+      "session_expires": 900,
+      "ringing_timer": 120,
+      "ringback_timer": 120,
+      "enable_gruu": false,
+      "use_precondition": true,
+      "display_format": "vga-port",
+      "audio_codec_mode": "0",
+      "audio_as": 41,
+      "audio_rs": 512,
+      "audio_rr": 1537,
+      "rtcp_timeout": 0,
+      "video_as": 768,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc006.mcc456.3gppnetwork.org",
+      "conference_dialog_type": "1",
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Vodafone INDIA VoLTE",
+      "operator": [
+        "40486",
+        "40446"
+      ],
+      "sales_code": "INS,INU",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4v6",
+      "pcscf_pref": "0",
+      "pdn": "ims",
+      "port": "5060",
+      "priority": "1",
+      "support_roaming": "true",
+      "audio_as": 80,
+      "audio_rs": 800,
+      "audio_rr": 2400,
+      "video_as": 768,
+      "video_rs": 9600,
+      "video_rr": 28800,
+      "audio_port_start": 50000,
+      "audio_port_end": 0,
+      "video_port_start": 53000,
+      "video_port_end": 0,
+      "framerate": 15,
+      "rtp_timeout": 30,
+      "rtcp_timeout": 25,
+      "amrwb_mode": "3",
+      "display_format": "qvga-port",
+      "wifi_precondition_enabled": true,
+      "ringing_timer": 45,
+      "ringback_timer": 45,
+      "session_expires": 3600,
+      "support_ipsec": "true",
+      "use_precondition": true,
+      "conference_dialog_type": "1",
+      "timer": "1:2000,2:16000,4:20000,A:2000,B:128000,C:180000,D:32000,E:2000,F:128000,G:2000,H:128000,I:17000,J:128000,K:17000",
+      "enable_rtcp_on_active_call": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "maroc Morocco Volte",
+      "mnoname": "Maroc_MA",
+      "operator": [
+        "60401"
+      ],
+      "sales_code": "MAT",
+      "ipver": "ipv4",
+      "pcscf_pref": "0",
+      "pdn": "ims",
+      "port": "5060",
+      "priority": "1",
+      "domain": "ims.mnc001.mcc604.3gppnetwork.org",
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "session_expires": 900,
+      "support_ipsec": true,
+      "use_precondition": true,
+      "enable_gruu": false,
+      "amrwb_mode": "8",
+      "video_codec": "H264",
+      "display_format": "vga",
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc001.mcc604.3gppnetwork.org",
+      "conference_dialog_type": "1",
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Telia Norway Internet RCS",
+      "mnoname": "Telia_NO",
+      "operator": [
+        "24202"
+      ],
+      "sales_code": "NEE",
+      "port": 5060,
+      "pcscf_pref": 3,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "subscribe_for_reg": false,
+      "pdn": "default",
+      "useragent": "IM-client/OMA1.0 Samsung/[PRODUCT_MODEL]-[BUILD_VERSION] Samsung-RCS/6.0",
+      "mss_size": 1300,
+      "priority": 1,
+      "need_autoconfig": true,
+      "ringing_timer": 180,
+      "need_naptr_dns": true,
+      "reregi_on_ratchange": "off",
+      "support_roaming": true,
+      "support_specific_salescode_only": true,
+      "network": [
+        {
+          "type": "lte,umts,hspa,wifi", "services": ["im","ft","ft_http","is","vs","options","euc","ec","gls"], "enabled": true
+        },
+        {
+          "type": "gsm", "services": ["im","ft","ft_http","options","euc"], "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CTI IMS VoLTE/VoWiFi",
+      "mnoname": "Claro_AR",
+      "operator": [
+        "722310"
+      ],
+      "sales_code": "CTI",
+      "pdn": "ims",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-md5-96",
+      "transport": "udp",
+      "priority": 1,
+      "support_ipsec": true,
+      "support_roaming": true,
+      "reg_expires": 3600,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc310.mcc722.3gppnetwork.org",
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "wifi_precondition_enabled": true,
+      "use_precondition": true,
+      "rtp_timeout": 15,
+      "rtcp_timeout": 15,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+       "name": "CGU TIGO IMS VoLTE",
+       "mnoname": "Tigo_GT",
+       "operator": [
+         "70402"
+       ],
+       "sales_code": "CGU",
+       "pdn": "ims",
+       "port": 5060,
+       "pcscf_pref": 0,
+       "ipver": "ipv4v6",
+       "enc_algo": "aes-cbc",
+       "priority": 1,
+       "enable_gruu": false,
+       "use_precondition": true,
+       "ringing_timer": 120,
+       "ringback_timer": 120,
+       "session_expires": "900",
+       "conference_uri": "sip:mmtel@conf-factory.ims.MNC02.mcc704.3gppnetwork.org",
+       "conference_dialog_type": "1",
+       "audio_codec_mode": "0",
+       "audio_as": 41,
+       "audio_rs": 512,
+       "audio_rr": 1537,
+       "dtmf_codec_mode": "1",
+       "rtcp_timeout": 0,
+       "secure_client_port": 6000,
+       "secure_server_port": 5000,
+       "network": [
+         {
+           "type": "lte",
+           "services": [
+             "mmtel",
+             "mmtel-video",
+             "smsip"
+           ],
+           "enabled": true
+         }
+       ]
+    },
+    {
+      "name": "Telcel IMS VoLTE",
+      "mnoname": "Telcel_MX",
+      "operator": [
+        "334020"
+      ],
+      "sales_code": "TCE",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "ipver": "ipv4v6",
+      "pcscf_pref": 0,
+      "pdn": "ims",
+      "support_roaming": true,
+      "enable_gruu": false,
+      "port": 5060,
+      "priority": 1,
+      "use_precondition": true,
+      "enable_rtcp_on_active_call": true,
+      "support_ipsec": true,
+      "display_format": "qvga-port",
+      "video_as": 512,
+      "video_rs": 240,
+      "video_rr": 240,
+      "mss_size": 1080,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "rtp_timeout": 30,
+      "rtcp_timeout": 25,
+      "secure_client_port": "6000",
+      "secure_server_port": "5000",
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Telcel RCS",
+      "mnoname": "Telcel_MX",
+      "operator": ["334020"],
+      "sales_code": "TCE",
+      "port": 5672,
+      "pcscf": "104.199.19.32",
+      "pcscf_pref": 3,
+      "ipver": "ipv4",
+      "regi_algo": "AKAv2-MD5",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "subscribe_for_reg": false,
+      "pdn": "default",
+      "useragent": "IM-client/OMA1.0 Samsung/[PRODUCT_MODEL]-[BUILD_VERSION] Samsung-RCS/6.0",
+      "mss_size": 1200,
+      "priority": 0,
+      "need_autoconfig": true,
+      "need_naptr_dns": true,
+      "support_roaming": true,
+      "network": [
+        {
+          "type": "lte,ehrpd,hspa,umts,gsm,wifi,evdo_0,evdo_a,1xrtt",
+          "services": [
+            "im",
+            "ft",
+            "ft_http",
+            "options",
+            "euc"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+   {
+    "name": "Telenor Hungary VOLTE",
+    "mnoname": "Telenor_HU",
+    "operator": [
+      "21601"
+    ],
+    "sales_code": "PAN",
+    "pdn": "ims",
+    "port": 5060,
+    "pcscf_pref": 0,
+    "ipver": "ipv6",
+    "support_ipsec": true,
+    "support_roaming": true,
+    "wifi_precondition_enabled": true,
+    "use_precondition": true,
+    "ringing_timer": 90,
+    "ringback_timer": 90,
+    "conference_uri": "sip:mmtel@conf-factory.ims.mnc001.mcc216.3gppnetwork.org",
+    "conference_subscribe": "only_subscribe",
+    "conference_dialog_type": "1",
+    "amrwb_mode": "8",
+    "video_codec": "H264",
+    "network": [
+        {
+          "type": "lte", "services": ["mmtel","mmtel-video"], "enabled": true
+        },
+        {
+          "type": "wifi", "services": ["mmtel","mmtel-video","smsip"], "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "ATT MX VoLTE",
+      "operator": [
+         "33405",
+         "334050",
+         "334090"
+      ],
+      "mnoname": "Att_ius_MX",
+      "sales_code": "IUS",
+      "pdn": "ims",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "amrwb_mode": "0,1,2",
+      "amrnb_mode": "7",
+      "enable_rtcp_on_active_call": true,
+      "ringing_timer": 60,
+      "ringback_timer": 60,
+      "invite_timeout": 20,
+      "use_precondition": true,
+      "wifi_precondition_enabled": true,
+      "support_roaming": true,
+      "enable_gruu": false,
+      "conference_uri": "sip:ALU_CONF@ims.attmex.mx",
+      "timer": "1:2000,2:4000,4:5000,A:2000,B:128000,C:180000,D:32000,E:2000,F:20000,G:3000,H:128000,I:17000,J:128000,K:17000",
+      "transport": "udp",
+      "priority": 1,
+      "support_ipsec": true,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+             "mmtel"
+          ], 
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "EBE IMS VoLTE",
+      "mnoname": "Movistar_EC",
+      "operator": [
+        "74000"
+      ],
+      "sales_code": "EBE",
+      "pdn": "ims",
+      "port": 5060,
+      "pcscf": "",
+      "pcscf_pref": 0,
+      "ipver": "ipv4",
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "des-ede3-cbc",
+      "priority": 1,
+      "use_precondition": true,
+      "enable_rtcp_on_active_call": true,
+      "useragent": "Samsung IMS 6.0 ([PRODUCT_MODEL] Android [OS_VERSION])",
+      "reg_expires": 3600,
+      "remote_uri_type": "tel",
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc000.mcc740.3gppnetwork.org",
+      "conference_dialog_type": "1",
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "CHT VoLTE/VoWiFI",
+      "mnoname": "Movistar_CL",
+      "operator": ["73002"],
+      "sales_code": "CHT",
+      "pdn": "ims",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4",
+      "auth_algo": "hmac-sha-1-96",
+      "mss_size": 6000,
+      "priority": 1,
+      "support_ipsec": true,
+      "reg_expires": 3600,
+      "reg_retry_max_time": 7190,
+      "conference_uri": "sip:conference@ims.mnc002.mcc730.3gppnetwork.org",
+      "conference_referuri_type": "siponly",
+      "video_codec": "H264",
+      "ringback_timer": 30,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "rtp_timeout": 10,
+      "rtcp_timeout": 10,
+      "use_precondition": true,
+      "privacy_header_restricted": "id",
+      "domain": "ims.mnc002.mcc730.3gppnetwork.org",
+      "enable_rtcp_on_active_call": true,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "BAA IMS VoLTE",
+      "mnoname": "Aliv_BS",
+      "operator": [
+        "36449"
+      ],
+      "sales_code": "BAA",
+      "pdn": "ims",
+      "port": 5060,
+      "pcscf": "",
+      "pcscf_pref": 0,
+      "ipver": "ipv4",
+      "priority": 1,
+      "session_refresh_method": 0,
+      "conference_dialog_type": "1",
+      "conference_referuri_type": "siponly",
+      "ringback_timer": 90,
+      "ringing_timer": 60,
+      "support_roaming": true,
+      "enable_rtcp_on_active_call": true,
+      "useragent": "Samsung IMS 6.0 ([PRODUCT_MODEL] Android [OS_VERSION])",
+      "remote_uri_type": "tel",
+      "conference_uri": "sip:conf_uri@ims.mnc049.mcc364.3gppnetwork.org",
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel",
+            "mmtel-video",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "ZTA IMS VoLTE",
+      "mnoname": "Claro_BR",
+      "operator": [
+        "72405"
+      ],
+      "sales_code": "ZTA,ZTO",
+      "pdn": "ims",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-md5-96",
+      "enc_algo": "none",
+      "mss_size": 1280,
+      "priority": 1,
+      "support_ipsec": true,
+      "support_roaming": true,
+      "enable_rtcp_on_active_call": true,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "useragent": "Samsung IMS 6.0 ([PRODUCT_MODEL] Android [OS_VERSION])",
+      "reg_expires": 3600,
+      "reg_retry_base_time": 5,
+      "conference_uri": "sip:mmtel@conf-factory.ims.mnc005.mcc724.3gppnetwork.org",
+      "conference_dialog_type": "1",
+      "audio_codec_mode": "0",
+      "display_format": "qvga-port",
+      "audio_as": 41,
+      "audio_rs": 512,
+      "audio_rr": 1537,
+      "video_as": 512,
+      "video_rs": 240,
+      "video_rr": 240,
+      "video_avpf": 1,
+      "rtcp_timeout": 0,
+      "secure_client_port": 6000,
+      "secure_server_port": 5000,
+      "supported_geolocation_phase": 1,
+      "network": [
+        {
+          "type": "lte,wifi",
+          "services": [
+            "mmtel",
+            "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

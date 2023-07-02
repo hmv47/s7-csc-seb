@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-lists xmlns="urn:ietf:params:xml:ns:resource-lists">
+    <list name="oma_buddylist">
+        <external anchor="$1resource-lists/users/sip%3A$3/index/~~/resource-lists/list%5B@name=%22rcs%22%5D"/>
+    </list>
+    <list name="oma_grantedcontacts">
+        <external anchor="$1resource-lists/users/sip%3A$3/index/~~/resource-lists/list%5B@name=%22rcs%22%5D"/>
+    </list>
+    <list name="oma_blockedcontacts">
+        <external anchor="$1resource-lists/users/$3/index/~~/resource-lists/list%5B@name=%22rcs_blockedcontacts%22%5D"/>
+        <external anchor="$1resource-lists/users/$3/index/~~/resource-lists/list%5B@name=%22rcs_revokedcontacts%22%5D"/>
+    </list>
+    <list name="rcs">
+        <display-name>My presence buddies</display-name>
+        <default:entry xmlns:default="urn:ietf:params:xml:ns:resource-lists" uri="$2"/></list>
+    <list name="rcs_blockedcontacts">
+        <display-name>My blocked contacts</display-name>
+    </list>
+    <list name="rcs_revokedcontacts">
+        <display-name>My revoked contacts</display-name>
+    </list>
+</resource-lists>

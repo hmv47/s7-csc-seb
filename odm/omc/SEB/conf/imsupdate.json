@@ -1,0 +1,35 @@
+{
+    "update_version": 2,
+    "min_swver": "",
+    "note": "Enable EVS for Telia EE and Telia LT",
+    "imsprofile_update": {
+        "profile": [
+            {
+                "name": "Telia EMT Estonia",
+                "mnoname": "Telia_EE",
+                "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+                "enable_evs_codec": true,
+                "evs_bit_rate_send": "5.9-24.4",
+                "evs_bit_rate_receive": "5.9-24.4"
+            },
+            {
+                "name": "Lithuania Omnitel ZEB VoLTE",
+                "mnoname": "ZEB_LT",
+                "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+                "enable_evs_codec": true,
+                "evs_bit_rate_send": "5.9-24.4",
+                "evs_bit_rate_receive": "5.9-24.4"
+            }
+        ],
+        "remove_profile": []
+    },
+    "globalsettings_update": {
+        "defaultsetting": {},
+        "nohitsetting": {},
+        "globalsetting": []
+    },
+    "mnomap_update": {
+        "remove_mnomap": [],
+        "add_mnomap": []
+    }
+}
