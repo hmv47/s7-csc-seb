@@ -1908,6 +1908,41 @@
       ]
     },
     {
+      "name": "Lithuania Omnitel ZEB VoLTE EMERGENCY",
+      "mnoname": "ZEB_LT",
+      "operator": [
+        "24601"
+      ],
+      "sales_code": "ZEB,SEB",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "pdn": "emergency",
+      "emergency_support": true,
+      "priority": 1,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "early_media_rtp_timeout_timer": 2,
+      "reg_expires": 3600,
+      "mss_size": 1300,
+      "support_ipsec": true,
+      "use_pem_header": false,
+      "use_precondition": true,
+      "support_183_for_ir92v9_precondition": false,
+      "conference_referuri_type": "siponly",
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
       "name": "Lithuania Bite VoLTE",
       "mnoname": "Bite_LT",
       "operator": [
@@ -1946,6 +1981,41 @@
       ]
     },
     {
+      "name": "Lithuania Bite VoLTE EMERGENCY",
+      "mnoname": "Bite_LT",
+      "operator": [
+        "24602"
+      ],
+      "sales_code": "SEB",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "pdn": "emergency",
+      "emergency_support": true,
+      "priority": 1,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "early_media_rtp_timeout_timer": 2,
+      "reg_expires": 3600,
+      "mss_size": 1300,
+      "support_ipsec": true,
+      "use_pem_header": false,
+      "use_precondition": true,
+      "support_183_for_ir92v9_precondition": false,
+      "conference_referuri_type": "siponly",
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+ {
       "name": "Lithuania Tele2 VoLTE",
       "mnoname": "Tele2_LT",
       "operator": [
@@ -1978,6 +2048,41 @@
             "mmtel",
             "mmtel-video",
             "smsip"
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Lithuania Tele2 VoLTE EMERGENCY",
+      "mnoname": "Tele2_LT",
+      "operator": [
+        "24603"
+      ],
+      "sales_code": "SEB",
+      "port": 5060,
+      "pcscf_pref": 0,
+      "ipver": "ipv4v6",
+      "auth_algo": "hmac-sha-1-96",
+      "enc_algo": "aes-cbc",
+      "pdn": "emergency",
+      "emergency_support": true,
+      "priority": 1,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "early_media_rtp_timeout_timer": 2,
+      "reg_expires": 3600,
+      "mss_size": 1300,
+      "support_ipsec": true,
+      "use_pem_header": false,
+      "use_precondition": true,
+      "support_183_for_ir92v9_precondition": false,
+      "conference_referuri_type": "siponly",
+      "network": [
+        {
+          "type": "lte",
+          "services": [
+            "mmtel"
           ],
           "enabled": true
         }
