@@ -265,7 +265,10 @@
       user="vodafone"
       password="vodafone"
       authtype="1"
-      type="default,supl,xcap"
+      mmsc="http://mmsc.mms.vodafone.nl"
+      mmsproxy="192.168.251.150"
+      mmsport="8799"
+      type="default,supl,mms,xcap"
   />
 
   <apn carrier="IMS"
