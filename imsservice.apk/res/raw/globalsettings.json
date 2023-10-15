@@ -1660,9 +1660,9 @@
     },
     {
       "mnoname": "ZEB_LT",
-      "auth_proxy_ip": "xcap.ims.mncXXX.mccXXX.pub.3gppnetwork.org",
+      "auth_proxy_ip": "xcap.ims.mnc001.mcc246.pub.3gppnetwork.org",
       "auth_proxy_port": 80,
-      "bsf_ip": "",
+      "bsf_ip": "bsf.mnc001.mcc246.pub.3gppnetwork.org",
       "bsf_port": 80,
       "xcap_root_uri_pref": 2,
       "show_volte_regi_icon": true,
@@ -1671,9 +1671,9 @@
     },
     {
       "mnoname": "Bite_LT",
-      "auth_proxy_ip": "xcap.ims.mncXXX.mccXXX.pub.3gppnetwork.org",
+      "auth_proxy_ip": "xcap.ims.mnc002.mcc246.pub.3gppnetwork.org",
       "auth_proxy_port": 80,
-      "bsf_ip": "bsf.mncXXX.mccXXX.pub.3gppnetwork.org",
+      "bsf_ip": "bsf.mnc002.mcc246.pub.3gppnetwork.org",
       "bsf_port": 80,
       "xcap_root_uri_pref": 2,
       "show_volte_regi_icon": true,
@@ -1682,7 +1682,7 @@
     },
     {
       "mnoname": "Tele2_LT",
-      "auth_proxy_ip": "xcap.ims.mncXXX.mccXXX.pub.3gppnetwork.org",
+      "auth_proxy_ip": "xcap.ims.mnc003.mcc246.pub.3gppnetwork.org",
       "auth_proxy_port": 80,
       "bsf_ip": "bsf.ims.mnc003.mcc246.pub.3gppnetwork.org",
       "bsf_port": 8081,
