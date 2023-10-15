@@ -1895,6 +1895,10 @@
       "wifi_precondition_enabled": true,
       "support_183_for_ir92v9_precondition": false,
       "conference_referuri_type": "siponly",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_bit_rate_receive": "5.9-24.4",
       "network": [
         {
           "type": "lte,wifi",
@@ -1933,6 +1937,10 @@
       "wifi_precondition_enabled": true,
       "support_183_for_ir92v9_precondition": false,
       "conference_referuri_type": "siponly",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_bit_rate_receive": "5.9-24.4",
       "network": [
         {
           "type": "lte,wifi",
@@ -1971,6 +1979,10 @@
       "wifi_precondition_enabled": true,
       "support_183_for_ir92v9_precondition": false,
       "conference_referuri_type": "siponly",
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_bit_rate_receive": "5.9-24.4",
       "network": [
         {
           "type": "lte,wifi",
