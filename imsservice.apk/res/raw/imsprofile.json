@@ -1996,6 +1996,74 @@
       ]
     },
     {
+      "name": "Lithuania Omnitel ZEB Emergency",
+      "mnoname": "ZEB_LT",
+      "operator": ["24601"],
+      "enabled": 2,
+      "pdn": "emergency",
+      "support_ipsec": true,
+      "auth_algo": "both",
+      "enc_algo": "all",
+      "mss_size": 1300,
+      "ringing_timer": 180,
+      "ringback_timer": 180,
+      "emergency_support": true,
+      "use_precondition": true,
+      "support_183_for_ir92v9_precondition": false,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_bit_rate_receive": "5.9-24.4",
+      "network": [
+        {
+          "type": "lte",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Bite Lithuania Emergency",
+      "mnoname": "Bite_LT",
+      "operator": ["24602"],
+      "pdn": "emergency",
+      "support_ipsec": true,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "emergency_support": true,
+      "use_precondition": true,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "enable_evs_codec": true,
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_bit_rate_receive": "5.9-24.4",
+      "network": [
+        {
+          "type": "lte",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Tele2 Lithuania Emergency",
+      "mnoname": "Tele2_LT",
+      "operator": ["24603"],
+      "pdn": "emergency",
+      "support_ipsec": true,
+      "ringing_timer": 90,
+      "ringback_timer": 90,
+      "emergency_support": true,
+      "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+      "audio_codec_mode": "3",
+      "enable_evs_codec": true,
+      "evs_bit_rate_send": "5.9-24.4",
+      "evs_bit_rate_receive": "5.9-24.4",
+      "network": [
+        {
+          "type": "lte",
+          "enabled": true
+        }
+      ]
+    },    
+    {
       "name": "CSL Mobile VoLTE",
       "mnoname": "CSL_HK",
       "operator": [
